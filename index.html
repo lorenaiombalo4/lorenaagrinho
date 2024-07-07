@@ -1,54 +1,66 @@
 <!DOCTYPE html>
-
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Cidade Colhendo Oportunidades</title>
-    <link rel="stylesheet" href="styles.css">
-
+    <title>Campo e Cidade: Colhendo Oportunidades</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
     <header>
-
-        <h1>A Cidade Colhendo Oportunidades</h1>
-
+        <div class="container">
+            <h1>Campo e Cidade</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero non velit fermentum feugiat.</p>
+            <p>Suspendisse potenti. Donec quis tellus a purus varius feugiat. Nullam elementum lorem a justo rhoncus tempus.</p>
+        </div>
+    </section>
 
-        <section>
+    <section id="servicos">
+        <div class="container">
+            <h2>Serviços</h2>
+            <div class="servico">
+                <h3>Serviço 1</h3>
+                <p>Descrição do serviço 1.</p>
+            </div>
+            <div class="servico">
+                <h3>Serviço 2</h3>
+                <p>Descrição do serviço 2.</p>
+            </div>
+        </div>
+    </section>
 
-            <h2>Seja bem-vindo!</h2>
-            <p>Descubra as oportunidades incríveis que nossa cidade oferece.</p>
-
-        </section>
-
-        <section>
-
-            <h2>O que oferecemos</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut semper velit. Nullam quis lectus vel lacus ultrices feugiat sed ut dui.</p>
-
-        </section>
-    
-        <section>
-
-            <h2>Notícias e Eventos</h2>
-            <p>Fique por dentro das últimas novidades e eventos na nossa cidade.</p>
-
-        </section>
-
-    </main>
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
 
     <footer>
-
-        <p>&copy; 2024 A Cidade Colhendo Oportunidades. Todos os direitos reservados.</p>
-
+        <div class="container">
+            <p>&copy; 2024 Campo e Cidade. Todos os direitos reservados.</p>
+        </div>
     </footer>
-
 </body>
-
 </html>
