@@ -69,7 +69,7 @@ section h2 {
 }
 
 .img-fotos{
-    display: inline;
+    display: flex;
 }
 
 footer {
