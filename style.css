@@ -68,6 +68,10 @@ section h2 {
     margin-bottom: 10px;
 }
 
+.img-fotos{
+    display: inline;
+}
+
 footer {
     background-color: #333;
     color: #fff;
